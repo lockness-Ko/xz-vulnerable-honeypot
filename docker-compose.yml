@@ -1,0 +1,6 @@
+services:
+  honeypot:
+    image: ghcr.io/lockness-ko/xz-vulnerable-honeypot:latest
+    build: .
+    ports:
+      - "2222:22"
