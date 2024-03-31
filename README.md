@@ -8,6 +8,10 @@ https://gist.github.com/q3k/af3d93b6a1f399de28fe194add452d01
 
 ## Installation
 
+*PLEASE run this on a separate isolated system. Docker is not used for isolation, but for getting the libraries working.*
+
+The bpf hook alsoo prints EVERY call to execve, including ones outside the container. 
+
 Just run
 
 ```bash
