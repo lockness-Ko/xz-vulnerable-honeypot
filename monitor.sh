@@ -21,4 +21,5 @@ EOF
 
 docker compose build && docker compose up -d
 
+sleep 3
 tail -f logs/{strace,bpftrace}.log 2>&1 | grep --line-buffered -vE "(\/usr\/bin\/sshd \-D \-R|systemd-userwork)" | ~/go/bin/notify
