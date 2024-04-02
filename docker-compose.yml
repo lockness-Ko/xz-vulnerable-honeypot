@@ -3,7 +3,7 @@ services:
     image: ghcr.io/lockness-ko/xz-vulnerable-honeypot:latest
     build: .
     ports:
-      - "2222:22"
+      - "22:22"
     userns_mode: "host"
     privileged: true
     volumes:
