@@ -20,7 +20,7 @@ Install [notify](https://github.com/projectdiscovery/notify) by projectdiscovery
 
 ```bash
 go install -v github.com/projectdiscovery/notify/cmd/notify@latest
-  ```
+```
 
 Run the following command to start the honeypot:
 
