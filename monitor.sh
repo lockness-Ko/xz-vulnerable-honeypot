@@ -19,6 +19,6 @@ discord:
     discord_webhook_url: "$1"
 EOF
 
-docker compose up -d
+docker compose build && docker compose up -d
 
 tail -f logs/*.log 2>&1 | grep --line-buffered -vE "(\/usr\/bin\/sshd \-D \-R|systemd-userwork)" | ~/go/bin/notify
