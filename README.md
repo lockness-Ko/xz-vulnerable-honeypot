@@ -7,6 +7,7 @@ An ssh honeypot with the XZ backdoor. CVE-2024-3094
 notes:
 - https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504
 - https://gist.github.com/q3k/af3d93b6a1f399de28fe194add452d01
+- https://github.com/hamarituc/xz-backdoor
 
 ## Warning
 
